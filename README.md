@@ -1,8 +1,8 @@
 # repo1
 i = input('Enter a number')
 if i>0:
-  print('POSITIVE')
+  print('Positive')
 elif i<0:
-  print('NEGATIVE')
+  print('Negative')
 else:
-  print('ZERO')
+  print('Zero')
