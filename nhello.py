@@ -1,3 +1,6 @@
 n = input()
-for x in range(0,n):
-    print('hello')    
+if n>0:
+    for x in range(0,n):
+        print('hello')    
+else:
+    print('Invalid Input')
