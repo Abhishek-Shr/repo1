@@ -1,3 +1,6 @@
 N,K = list(map(int,input().split()))
 li = list(map(int,input().split()))
-print(sum(li[:K]))
+if K <= N:
+    print(sum(li[:K]))
+else:
+    print('Invalid Input') 
