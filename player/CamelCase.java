@@ -5,8 +5,10 @@ public class Guvi{
         Scanner sc = new Scanner(System.in);
         int i;
         String s = sc.nextLine();
-        char[] c = s.toCharArray();        
-        c[0] = (char)(c[0]-32);
+        char[] c = s.toCharArray(); 
+        if(96 < c[0] && c[0] < 123){       
+            c[0] = (char)(c[0]-32);
+        }
         for(i = 1; i < c.length; i++){
             if(i+1 > c.length-1)
             break;
