@@ -24,6 +24,9 @@ public class Guvi{
         if(64 < c[c.length-1] && c[c.length-1] < 92){
             c[c.length-1] = (char)(c[c.length-1]+32);           
         }
+        if(96 < c[c.length-1] && c[c.length-1] < 123 && c[c.length-2] == ' '){
+            c[c.length-1] = (char)(c[c.length-1]-32);           
+        }
         System.out.println(String.valueOf(c));
     }
 }
