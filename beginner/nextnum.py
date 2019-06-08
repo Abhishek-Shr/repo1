@@ -1,2 +1,2 @@
-number = int(input())
-print(number+1)
+number123 = int(input())
+print(number123+1)
