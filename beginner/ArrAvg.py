@@ -1,3 +1,3 @@
-n = int(input())
+nom = int(input())
 l = list(map(int,input().split()))
-print(sum(l)//n)
+print(sum(l)//nom)
